@@ -1,0 +1,17 @@
+[15-May-2025 23:52:15 America/Fortaleza] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home2/pros7704/public_html/update_pass.php on line 17
+[16-May-2025 03:00:14 UTC] PHP Warning:  Attempt to read property "ID" on null in /home2/pros7704/public_html/wp-content/plugins/siteseo/functions.php on line 149
+[16-May-2025 00:44:45 America/Fortaleza] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home2/pros7704/public_html/envia_email.php on line 5
+[16-May-2025 00:44:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/pros7704/public_html/envia_email.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/pros7704/public_html/envia_email.php on line 5
+[16-May-2025 00:44:57 America/Fortaleza] PHP Warning:  require(vendor/autoload.php): Failed to open stream: No such file or directory in /home2/pros7704/public_html/envia_email.php on line 5
+[16-May-2025 00:44:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/pros7704/public_html/envia_email.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/pros7704/public_html/envia_email.php on line 5
+[16-May-2025 00:49:47 America/Fortaleza] PHP Warning:  require(PHPMailer/PHPMailer.php): Failed to open stream: No such file or directory in /home2/pros7704/public_html/envia_email.php on line 5
+[16-May-2025 00:49:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/PHPMailer.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/pros7704/public_html/envia_email.php:5
+Stack trace:
+#0 {main}
+  thrown in /home2/pros7704/public_html/envia_email.php on line 5
