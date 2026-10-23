@@ -1,0 +1,34 @@
+/* Soluções acompanha a identidade da página inicial. */
+.solutions-page .solutions-hero {
+  padding-top:180px;
+  background:var(--bg-deep);
+}
+.solutions-page .solutions-hero::after,.solutions-page .solutions-hero .tech-grid { display:none; }
+.solutions-page .solutions-hero h1 { font-size:clamp(3.2rem,6vw,6rem); line-height:1.08; }
+.solutions-page .solutions-hero h1 em { background:none; color:var(--green); -webkit-text-fill-color:currentColor; }
+.solutions-page .solutions-intro { gap:50px; }
+.solutions-page .solutions-intro nav { min-width:0; width:min(100%,350px); flex-shrink:0; }
+.solutions-page .solutions-intro nav a { display:flex; justify-content:space-between; padding-block:16px; }
+.solutions-page .solution-image { border-radius:0; }
+.solutions-page .solution-image>span { background:linear-gradient(0deg,#0c0d0eee,transparent); }
+.solutions-page .topic-list li { color:var(--muted); }
+.solutions-page .representation-detail { background:var(--bg-deep); }
+.solutions-page .representation-cards article { background:var(--surface); border-radius:0; }
+.solutions-page .tax-grid article { background:var(--surface); border-radius:0; }
+.solutions-page .tax-grid h3 { font-size:clamp(2rem,3.5vw,3rem); }
+.solutions-page .final-cta { background:var(--brand); color:var(--bg-deep); }
+.solutions-page .final-cta .eyebrow { color:var(--bg-deep); }
+.solutions-page .final-cta .button { background:var(--bg-deep); color:var(--text); }
+.solutions-page .final-cta .button:hover { background:var(--surface); }
+@media(max-width:850px) {
+  .solutions-page .solutions-hero { padding-top:150px; }
+  .solutions-page .solutions-intro { flex-direction:column; align-items:start; gap:30px; }
+  .solutions-page .solutions-intro nav { width:100%; }
+}
+@media(max-width:640px) {
+  .solutions-page .solutions-hero { padding-top:125px; }
+  .solutions-page .solutions-hero h1 { font-size:clamp(2.6rem,10vw,4rem); }
+  .solutions-page .solutions-intro nav { margin-top:0; }
+  .solutions-page .tax-grid article { padding:25px 20px; }
+  .solutions-page:not(.js-ready) .solutions-hero { padding-top:45px; }
+}
